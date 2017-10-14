@@ -10,8 +10,7 @@ import retrofit2.converter.gson.GsonConverterFactory
 
 object RetrofitHelper {
 
-    // TODO: update this
-    val BASE_URL = "REPLACE_WITH_BASE_URL"
+    val BASE_URL = "https://pokeapi.co/api/v2/"
 
     private var retrofit: Retrofit? = null
     private var usingAuth = false
